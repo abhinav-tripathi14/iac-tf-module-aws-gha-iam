@@ -8,8 +8,8 @@ resource "tfe_registry_module" "registry_module" {
   name = "module-aws-gha-iam"
   organization = data.tfe_organization.foo.name
   vcs_repo {
-    display_identifier = "abhinav-tripathi14/iac-tf-module-aws-gha-iam"
-    identifier         = "abhinav-tripathi14/iac-tf-module-aws-gha-iam"
+    display_identifier = "abhinav-tripathi14/iac"
+    identifier         = "abhinav-tripathi14/iac"
     oauth_token_id     = var.oauthtokenid
   }
 }
