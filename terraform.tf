@@ -4,7 +4,7 @@ terraform {
     organization = "Test-Abhinav"
 
     workspaces {
-      name = "abc"
+      name = "abc-tfe-organization"
     }
   }
 
